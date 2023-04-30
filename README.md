@@ -82,7 +82,7 @@ The following properties can be configured:
         <tr>
             <td><code>powerunits</code></td>
             <td>
-                What units to use. This property can be set in the general configuration settings. See the <a href="https://docs.magicmirror.builders/getting-started/configuration.html#general">MagicMirror Documentation</a> for more information.
+                <b>Optional</b> - What units to use. This property can be set in the general configuration settings. See the <a href="https://docs.magicmirror.builders/getting-started/configuration.html#general">MagicMirror Documentation</a> for more information.<br />Default: <code>global default</code>
             </td>
         </tr>
         <tr>
