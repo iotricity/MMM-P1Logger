@@ -38,10 +38,10 @@ modules: [
         module: 'MMM-P1Logger',
         position: 'top_right', // This can be any of the regions.
         config: {
-			uuid: '2b978e1c-0dfa-42bf-af8e-bfe256453228',
+			uuid: "2b978e1c-0dfa-42bf-af8e-bfe256453228",
 			hours: 4,
 			interval: 2,
-			powerunits: config.units,
+			powerunits: "metric",
 			graphic: "color"
         }
     }
