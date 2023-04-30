@@ -1,5 +1,5 @@
 # MagicMirror Module: MMM-P1Logger
-A MagicMirror Module for your Tado Smart Thermostat. 
+A MagicMirror Module for your ESP P1Logger. 
 
 ### The module displays the following information:
 
