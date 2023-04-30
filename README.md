@@ -73,11 +73,11 @@ The following properties can be configured:
 		</tr>
         <tr>
 			<td><code>hours</code></td>
-			<td><b>Optional</b> - The time span in hours of the graphic, optimal values between 2 and 8 hours. Default: <code>4</code></td>
+			<td><b>Optional</b> - The time span in hours of the graphic, optimal values between 2 and 8 hours.<br />Default: <code>4</code></td>
 		</tr>
         <tr>
             <td><code>interval</code></td>
-            <td><b>Optional</b> - The update interval in minutes for updating the graphic. Default: <code>2</code></td>
+            <td><b>Optional</b> - The update interval in minutes for updating the graphic.<br />Default: <code>2</code></td>
         </tr>
         <tr>
             <td><code>powerunits</code></td>
@@ -87,7 +87,7 @@ The following properties can be configured:
         </tr>
         <tr>
             <td><code>graphic</code></td>
-            <td><b>Optional</b> - Shows the graphic in color or greyscale only. Default: <code>color</code><br />Can be set to <code>color</code> or <code>bright</code>.</td>
+            <td><b>Optional</b> - Shows the graphic in color or greyscale only.<br />Default: <code>color</code><br />Can be set to <code>color</code> or <code>bright</code>.</td>
         </tr>
 	</tbody>
 </table>
