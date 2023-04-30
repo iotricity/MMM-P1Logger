@@ -1,0 +1,74 @@
+/* Magic Mirror
+ * Module: MMM-P1Logger
+ *
+ * By Jeroen van Vooren (Iotricity)
+ * MIT Licensed.
+ */
+
+.mapP1Container {
+	height: 340px;
+	width: 450px;
+}
+
+.mapP1Graph {
+	height: 300px;
+	width: 450px;
+	left: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	border: none;
+	position: absolute;
+}
+
+.mapP1ActPwr {
+	font-size: var(--font-size-large);
+	line-height: 1;
+	font-family: var(--font-primary), sans-serif;
+	font-weight: 300;
+	color: var(--color-text-bright);
+	top: 0px;
+	right: 0px;
+	margin: -3px 0 0 -3px;
+	position: absolute;
+	display: block;	
+}
+
+.mapP1PwrDayCons {
+	font-size: var(--font-size-small);
+	color: var(--color-text);
+	top: 0px;
+	left: 0px;
+	margin: -2px 0 0 -3px;
+	position: absolute;
+	display: block;	
+}
+
+.mapP1PwrDayProd {
+	font-size: var(--font-size-small);
+	color: var(--color-text);
+	top: 30px;
+	left: 0px;
+	margin: -2px 0 0 -3px;
+	position: absolute;
+	display: block;	
+}
+
+.mapP1GasDayCons {
+	font-size: var(--font-size-small);
+	color: var(--color-text);
+	top: 0px;
+	left: 110px;
+	margin: -2px 0 0 -3px;
+	position: absolute;
+	display: block;	
+}
+
+.mapP1WtrDayCons {
+	font-size: var(--font-size-small);
+	color: var(--color-text);
+	top: 30px;
+	left: 110px;
+	margin: -2px 0 0 -3px;
+	position: absolute;
+	display: block;	
+}
