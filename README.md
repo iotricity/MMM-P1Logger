@@ -11,7 +11,7 @@ A MagicMirror Module for your ESP P1Logger.
 * A graphic of the actual usage and/or production over a time frame
 
 ### Screenshot
-![screenshot](https://github.com/iotrocity/MMM-P1Logger/blob/master/img/screenshot.png)
+![screenshot](https://github.com/iotricity/MMM-P1Logger/blob/main/img/screenshot.png)
 
 ## Installation
 
