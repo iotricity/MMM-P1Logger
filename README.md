@@ -25,12 +25,6 @@ Clone this repository:
 git clone https://github.com/iotricity/MMM-P1Logger
 ````
 
-Install NPM dependencies from inside the MMM-Tado folder:
-```
-cd MMM-P1Logger/
-npm install
-```
-
 Configure the module in your `config.js` file.
 
 ## Using the module
