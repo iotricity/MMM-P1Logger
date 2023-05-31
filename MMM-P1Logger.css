@@ -6,8 +6,12 @@
  */
 
 .mapP1Container {
-	height: 340px;
+	height: 255px;
 	width: 450px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
 }
 
 .mapP1Graph {
@@ -15,8 +19,20 @@
 	width: 450px;
 	left: 0px;
 	bottom: 0px;
+	margin: 0px;
+	padding: 0px;
 	overflow: hidden;
-	border: none;
+	position: absolute;
+}
+
+.mapP1Stats {
+	height: 55px;
+	width: 450px;
+	left: 0px;
+	bottom: 200px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
 	position: absolute;
 }
 
@@ -28,6 +44,7 @@
 	color: var(--color-text-bright);
 	top: 0px;
 	right: 0px;
+	width: 220px;
 	margin: -3px 0 0 -3px;
 	position: absolute;
 	display: block;	
@@ -38,7 +55,7 @@
 	color: var(--color-text);
 	top: 0px;
 	left: 0px;
-	margin: -2px 0 0 -3px;
+	margin: -2px 0 0 px;
 	position: absolute;
 	display: block;	
 }
@@ -46,9 +63,9 @@
 .mapP1PwrDayProd {
 	font-size: var(--font-size-small);
 	color: var(--color-text);
-	top: 30px;
+	top: 27px;
 	left: 0px;
-	margin: -2px 0 0 -3px;
+	margin: -2px 0 0 0px;
 	position: absolute;
 	display: block;	
 }
@@ -58,7 +75,7 @@
 	color: var(--color-text);
 	top: 0px;
 	left: 110px;
-	margin: -2px 0 0 -3px;
+	margin: -2px 0 0 0px;
 	position: absolute;
 	display: block;	
 }
@@ -66,9 +83,9 @@
 .mapP1WtrDayCons {
 	font-size: var(--font-size-small);
 	color: var(--color-text);
-	top: 30px;
+	top: 27px;
 	left: 110px;
-	margin: -2px 0 0 -3px;
+	margin: -2px 0 0 0px;
 	position: absolute;
 	display: block;	
 }
