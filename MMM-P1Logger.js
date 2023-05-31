@@ -7,7 +7,7 @@
 
 Module.register("MMM-P1Logger", {
 	defaults: {
-		uuid: "ec8991ce-d736-4dea-b8d6-2eeea3aa07e6",
+		uuid: "2b978e1c-0dfa-42bf-af8e-bfe256453228",
 		powerunits: "metric",
 		graphic: "color",
 		hours: 4,
