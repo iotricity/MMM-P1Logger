@@ -24,6 +24,10 @@
 	overflow: hidden;
 	position: absolute;
 }
+.mapP1Image {
+	height: 200px;
+	width: 450px;
+}
 
 .mapP1Stats {
 	height: 55px;
