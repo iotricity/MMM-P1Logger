@@ -14,6 +14,15 @@
 	position: relative;
 }
 
+.mapP1ContainerMini {
+	height: 55px;
+	width: 450px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: relative;
+}
+
 .mapP1Graph {
 	height: 200px;
 	width: 450px;
@@ -24,6 +33,19 @@
 	overflow: hidden;
 	position: absolute;
 }
+
+.mapP1GraphMini {
+	height: 1px;
+	width: 450px;
+	left: 0px;
+	bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: absolute;
+	display: hidden;
+}
+
 .mapP1Image {
 	height: 200px;
 	width: 450px;
@@ -34,6 +56,17 @@
 	width: 450px;
 	left: 0px;
 	bottom: 200px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.mapP1StatsMini {
+	height: 55px;
+	width: 450px;
+	left: 0px;
+	bottom: 0px;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;

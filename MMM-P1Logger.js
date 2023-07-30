@@ -40,18 +40,28 @@ Module.register("MMM-P1Logger", {
 	getDom: function () {
 		var mapP1Container = document.createElement('div');
 		this.p1container = mapP1Container;
-		mapP1Container.className = 'mapP1Container';
+		if(this.config.graphic === 'none') {
+			mapP1Container.className = 'mapP1ContainerMini';
+		} else {	
+			mapP1Container.className = 'mapP1Container';
+		}
 
 		var mapP1Graph = document.createElement('div');
 		this.graphcontainer = mapP1Graph;
-		mapP1Graph.className = 'mapP1Graph';
-		mapP1Graph.innerHTML = 'Fetching P1 Data';
+		if(this.config.graphic === 'none') {
+			mapP1Graph.className = 'mapP1GraphMini';
+		} else {
+			mapP1Graph.className = 'mapP1Graph';
+		}
 		mapP1Container.appendChild(mapP1Graph);
-
+		
 		var mapP1Stats = document.createElement('div');
 		this.statscontainer = mapP1Stats;
-		mapP1Stats.className = 'mapP1Stats';
-		mapP1Stats.innerHTML = '';
+		if(this.config.graphic === 'none') {
+			mapP1Stats.className = 'mapP1StatsMini';
+		} else {
+			mapP1Stats.className = 'mapP1Stats';
+		}
 		mapP1Container.appendChild(mapP1Stats);		
 
 		var mapP1ActPwr = document.createElement('div');
@@ -101,8 +111,10 @@ Module.register("MMM-P1Logger", {
 			this.cntr = this.cntr + 1;
 			// Update actual usage graphic
 			if (this.cntr % (this.config.interval * 60) == 0 || this.firstgraph == false) {
-				// Update actual usage graphic after interval from config. On the first run, get all DOM components
-				this.graphcontainer.innerHTML = '<img width=450 height=200 id="mapP1Image" class="mapP1Image" src=https://offroaders.nl/P1View/image.php?action=actual&mode=' + this.config.graphic + '&t=' + this.config.hours + '&uuid=' + this.config.uuid + '&w=450&h=200&somerandomshit=' + Math.round(Math.random() * 10000) + '>';
+				if(this.config.graphic != 'none') {
+					// Update actual usage graphic after interval from config. On the first run, get all DOM components
+					this.graphcontainer.innerHTML = '<img width=450 height=200 id="mapP1Image" class="mapP1Image" src=https://offroaders.nl/P1View/image.php?action=actual&mode=' + this.config.graphic + '&t=' + this.config.hours + '&uuid=' + this.config.uuid + '&w=450&h=200&somerandomshit=' + Math.round(Math.random() * 10000) + '>';
+				}
 				this.firstgraph = true;
 			}
 			// Update actual values (updated every 10 seconds from P1 Logger)

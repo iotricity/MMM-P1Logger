@@ -76,12 +76,12 @@ The following properties can be configured:
         <tr>
             <td><code>powerunits</code></td>
             <td>
-                <b>Optional</b> - What units to use. This property can be set in the general configuration settings. See the <a href="https://docs.magicmirror.builders/getting-started/configuration.html#general">MagicMirror Documentation</a> for more information.<br />Default: <code>global default</code>
+                <b>Optional</b> - What units to use. This property can be set in the general configuration settings. See the <a href="https://docs.magicmirror.builders/getting-started/configuration.html#general">MagicMirror Documentation</a> for more information.<br />Default: <code>metric</code>
             </td>
         </tr>
         <tr>
             <td><code>graphic</code></td>
-            <td><b>Optional</b> - Shows the graphic in color or greyscale only.<br />Default: <code>color</code><br />Can be set to <code>color</code> or <code>bright</code>.</td>
+            <td><b>Optional</b> - Show the graphic in color, greyscale only or hide the graphic.<br />Default: <code>color</code><br />Can be set to <code>color</code>, <code>bright</code> or <code>none</code>.</td>
         </tr>
 	</tbody>
 </table>
