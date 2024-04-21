@@ -78,6 +78,8 @@
 	line-height: 1;
 	font-family: var(--font-primary), sans-serif;
 	font-weight: 300;
+        text-align: end;
+        padding-right: 10px;
 	color: var(--color-text-bright);
 	top: 0px;
 	right: 0px;
