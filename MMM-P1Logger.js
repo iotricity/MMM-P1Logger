@@ -145,7 +145,7 @@ Module.register("MMM-P1Logger", {
 						pwractcons = pwractprod;
 						this.pwractcontainer.innerHTML = '<span style="color:#b0ffb0;">' + this.convertDecimalSeperator(pwractcons) + '<sup>W</sup></span>';
 					} else {
-						this.pwractcontainer.innerHTML = '<span style="color:#b0ffb0;">' + this.convertDecimalSeperator(pwractcons) + '<sup>W</sup></span>';
+						this.pwractcontainer.innerHTML = '<span style="color:#ffb0b0;">' + this.convertDecimalSeperator(pwractcons) + '<sup>W</sup></span>';
 					}
 					this.pwrdayconscontainer.innerHTML = '<span align="center" style="width:12px; text-align: center; display:inline-block;"><i class="fas fa-plug dimmed" style="margin-right: 0.5em;"></i></span> <span align="right" style="width:80px; display:inline-block;">'  + this.convertDecimalSeperator((parseFloat(pwrdaycons) / 1000.0).toFixed(3)) + '<sup>kWh</sup></span>';
 					this.pwrdayprodcontainer.innerHTML = '<span align="center" style="width:12px; text-align: center; display:inline-block;"><i class="fas fa-sun dimmed" style="margin-right: 0.5em;"></i></span> <span align="right" style="width:80px; display:inline-block;">'  + this.convertDecimalSeperator((parseFloat(pwrdayprod) / 1000.0).toFixed(3)) + '<sup>kWh</sup></span>';
