@@ -143,9 +143,9 @@ Module.register("MMM-P1Logger", {
 					wtrdaycons = Number(xmlDoc.getElementsByTagName('wtrDayCons')[0].childNodes[0].nodeValue);
 					if (pwractcons == 0 && pwractprod > 0) {
 						pwractcons = pwractprod;
-						this.pwractcontainer.innerHTML = '<span style="color:#d0ffd0;">' + this.convertDecimalSeperator(pwractcons) + '<sup>W</sup></span>';
+						this.pwractcontainer.innerHTML = '<span style="color:#b0ffb0;">' + this.convertDecimalSeperator(pwractcons) + '<sup>W</sup></span>';
 					} else {
-						this.pwractcontainer.innerHTML = this.convertDecimalSeperator(pwractcons) + '<sup>W</sup>';
+						this.pwractcontainer.innerHTML = '<span style="color:#b0ffb0;">' + this.convertDecimalSeperator(pwractcons) + '<sup>W</sup></span>';
 					}
 					this.pwrdayconscontainer.innerHTML = '<span align="center" style="width:12px; text-align: center; display:inline-block;"><i class="fas fa-plug dimmed" style="margin-right: 0.5em;"></i></span> <span align="right" style="width:80px; display:inline-block;">'  + this.convertDecimalSeperator((parseFloat(pwrdaycons) / 1000.0).toFixed(3)) + '<sup>kWh</sup></span>';
 					this.pwrdayprodcontainer.innerHTML = '<span align="center" style="width:12px; text-align: center; display:inline-block;"><i class="fas fa-sun dimmed" style="margin-right: 0.5em;"></i></span> <span align="right" style="width:80px; display:inline-block;">'  + this.convertDecimalSeperator((parseFloat(pwrdayprod) / 1000.0).toFixed(3)) + '<sup>kWh</sup></span>';
